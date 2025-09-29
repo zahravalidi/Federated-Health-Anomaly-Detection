@@ -136,7 +136,7 @@ If you use this project in your research, please consider citing the original pa
 
 ```bibtex
 @article{Validi2025,
-  author    = {Validi, Zahra and Albadvi, Amir and Noughabi, Elham Akhondzadeh and Ghanbarzadeh, Mitra},
+  author    = {Validi, Zahra and Albadvi, Amir and Akhondzadeh Noughabi, Elham and Ghanbarzadeh, Mitra},
   title     = {A Federated Learning Framework for Anomaly Detection on Heterogeneous Health Insurance Claims},
   journal   = {Applied Artificial Intelligence},
   year      = {2025},
