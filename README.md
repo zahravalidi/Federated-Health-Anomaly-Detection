@@ -4,7 +4,7 @@ dataset: [Health Insurance Claim Prediction]
 framework: [scikit-learn, tensorflow, flwr]
 ---
 
-# Project Aegis
+# Federated-Health-Anomaly-Detection
 ### A Federated Learning Framework for Anomaly Detection on Heterogeneous Health Insurance Claims
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -24,7 +24,6 @@ To simulate a realistic, non-IID federated environment, the dataset is partition
 
 The repository is organized to separate configuration, source code, notebooks, and data.
 
-```
 .
 ├── LICENSE.txt               # The license for this project's code (MIT)
 ├── pyproject.toml            # Python project configuration
@@ -36,7 +35,7 @@ The repository is organized to separate configuration, source code, notebooks, a
 │   └── task.py
 │
 ├── Notebooks/                # Jupyter notebooks for analysis and visualization
-│   └── MAIN_V8_... .ipynb    # Main notebook to reproduce paper results
+│   └── main_analysis.ipynb   # Main notebook to reproduce paper results
 │
 ├── Src/                      # Python script versions of the notebooks
 │   └── ...
@@ -46,7 +45,7 @@ The repository is organized to separate configuration, source code, notebooks, a
 │   └── LICENSE-DATA.txt
 │
 └── Generated Artifacts/      # (Ignored by Git) For saved models (.pkl)
-```
+
 
 ---
 
@@ -62,8 +61,8 @@ To get started with this project, follow the steps below.
 ### ### Installation Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ZahraValidi/Project-Aegis.git](https://github.com/ZahraValidi/Project-Aegis.git)
-    cd Project-Aegis
+    git clone [https://github.com/zahravalidi/Federated-Health-Anomaly-Detection.git](https://github.com/zahravalidi/Federated-Health-Anomaly-Detection.git)
+    cd Federated-Health-Anomaly-Detection
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -87,7 +86,7 @@ The easiest way to explore the project and reproduce the figures and tables from
 
 1.  Navigate to the `Notebooks/` directory.
 2.  Launch Jupyter Lab: `jupyter lab`
-3.  Open `MAIN_V8_OHE_MinMax_FedProx,_Table2,_Figure_2,_Table_3.ipynb` and run the cells sequentially.
+3.  Open `main_analysis.ipynb` and run the cells sequentially.
 
 ### ### Run the Federated Learning Simulation 🤖
 To run the full federated system from the command line, you will need at least two separate terminal windows (with the virtual environment activated in each).
@@ -136,9 +135,8 @@ If you use this project in your research, please consider citing the original pa
 
 ```bibtex
 @article{Validi2025,
-  author    = {Validi, Zahra and Albadvi, Amir and Akhondzadeh Noughabi, Elham and Ghanbarzadeh, Mitra},
+  author    = {Validi, Zahra and Albadvi, Amir and Noughabi, Elham Akhondzadeh and Ghanbarzadeh, Mitra},
   title     = {A Federated Learning Framework for Anomaly Detection on Heterogeneous Health Insurance Claims},
   journal   = {Applied Artificial Intelligence},
   year      = {2025},
 }
-```
