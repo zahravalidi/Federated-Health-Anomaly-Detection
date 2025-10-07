@@ -9,6 +9,7 @@ framework: [scikit-learn, tensorflow, flwr]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![DOI](https://zenodo.org/badge/1066396255.svg)](https://doi.org/10.5281/zenodo.17289405)
 
 ---
 
